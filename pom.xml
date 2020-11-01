@@ -3,6 +3,13 @@
   <groupId>CalculadoraCompleja</groupId>
   <artifactId>CalculadoraCompleja</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <maven.compiler.source>14</maven.compiler.source>
+  <maven.compiler.target>14</maven.compiler.target>
+  <exec.mainClass>dad.primertrimestre.Main</exec.mainClass>
+  </properties>
+  
    <dependencies>
 			<dependency>
 				<groupId>org.openjfx</groupId>
